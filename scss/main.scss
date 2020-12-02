@@ -1,2 +1,100 @@
 @import "./resets";
-@import "./variables.scss";
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  background: url(../img/bg.jpg);
+  font-family: "Poppins", sans-serif;
+}
+
+.container_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.logo {
+  padding: 30px;
+  padding-left: 300px;
+}
+
+nav {
+  padding-right: 300px;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+  font-weight: 530;
+}
+
+.badge {
+  padding-top: 16.5px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h4 {
+  position: absolute;
+  background: transparent;
+  padding-left: 45px;
+  font-weight: 500;
+}
+
+.container_body_left {
+  display: flex;
+  flex-direction: column;
+  margin: 0 350px;
+}
+
+.container_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.phone_image {
+  margin-right: 200px;
+}
+
+.btn_1 {
+  background-color: $button-color;
+  color: $primary-color;
+  padding: 20px;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 14px;
+  border: transparent;
+  width: 150px;
+  font-family: "Poppins";
+}
+
+.btn_2 {
+  background-color: $button-color;
+  color: $primary-color;
+  padding: 20px;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 14px;
+  border: transparent;
+  width: 150px;
+  font-family: "Poppins";
+}
+
+.btn_3 {
+  color: $button-color;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 17px;
+  width: 200px;
+  font-family: "Poppins";
+}
