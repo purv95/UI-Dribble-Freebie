@@ -26,6 +26,8 @@ body {
 .logo {
   padding: 30px;
   padding-left: 250px;
+  width: 25rem;
+  background: transparent;
 }
 
 nav {
@@ -44,8 +46,9 @@ li {
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 60px;
+  margin: 0;
 }
 
 h4 {
@@ -64,6 +67,7 @@ h4 {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 300px 0;
+  margin-bottom: 50px;
 }
 
 .container_body {
