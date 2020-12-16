@@ -406,3 +406,24 @@ h4 {
   margin-left: 390px;
   position: relative;
 }
+
+.container_six_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-size: 35px;
+    font-weight: 600;
+    width: 600px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  p {
+    font-size: 13px;
+    width: 530px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: -10px;
+  }
+}
