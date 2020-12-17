@@ -72,10 +72,10 @@ h4 {
 .btn_1 {
   background-color: $button-color;
   color: $primary-color;
-  padding: 20px;
+  padding: 12px;
   border-radius: 30px;
-  font-weight: 900;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 12px;
   border: transparent;
   width: 150px;
   font-family: "Poppins";
@@ -100,8 +100,8 @@ h4 {
   background-color: transparent;
   border: transparent;
   border-radius: 30px;
-  font-weight: 500;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 13px;
   width: 200px;
   font-family: "Poppins";
   cursor: pointer;
@@ -426,4 +426,187 @@ h4 {
     text-align: center;
     margin-top: -10px;
   }
+}
+
+.btn_4 {
+  background-color: $primary-color;
+  color: gray;
+  padding: 20px;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 14px;
+  border: transparent;
+  width: 150px;
+  font-family: "Poppins";
+  cursor: pointer;
+  border: 1px solid rgb(207, 206, 206);
+  :focus {
+    background-color: $button-color;
+    color: $primary-color;
+  }
+}
+
+.price_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 27px;
+    padding: 3px;
+    padding-top: 0;
+  }
+  p {
+    font-size: 11px;
+    font-weight: 500;
+  }
+}
+
+.cards {
+  box-shadow: 0px 30px 20px rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+  p {
+    color: rgb(185, 184, 184);
+    margin: 10px 0 17px 0;
+  }
+  h2 {
+    margin: 4px;
+  }
+  button {
+    margin: 15px;
+  }
+}
+
+.cards_2 {
+  box-shadow: 0px 30px 20px rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 450px;
+  margin: 53px 10px 10px 10px;
+  border: 2px solid rgb(240, 240, 240);
+  p {
+    color: rgb(185, 184, 184);
+    margin: 10px 0 17px 0;
+  }
+  h2 {
+    margin: 4px;
+  }
+  button {
+    margin: 15px;
+  }
+}
+
+.cards_para {
+  margin-top: 20px;
+}
+
+.price {
+  color: rgb(190, 190, 190);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.cards_heading {
+  background: linear-gradient(white, rgb(243, 241, 241));
+  width: 200px;
+  height: 150px;
+  h1 {
+    padding: 0;
+    margin: 30px 0 10px 0;
+    text-align: center;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+    text-align: center;
+    color: rgb(190, 190, 190);
+  }
+}
+
+.ceo_info_name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  h5 {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.container_six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+  h3 {
+    font-size: 35px;
+    font-weight: 600;
+    width: 470px;
+    line-height: 1.2;
+  }
+  p {
+    font-size: 13px;
+    width: 400px;
+    margin-bottom: 30px;
+  }
+  img {
+    padding-right: 50px;
+  }
+  margin-top: 50px;
+}
+
+.container_six_right {
+  padding-left: 30px;
+  padding-right: 180px;
+  margin-bottom: 150px;
+  h4 {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+
+.ceo_info {
+  display: flex;
+  h5 {
+    margin-top: 30px;
+  }
+  img {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  justify-content: center;
+  align-items: center;
+  place-items: center;
 }
