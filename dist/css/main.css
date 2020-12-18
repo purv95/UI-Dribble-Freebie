@@ -958,12 +958,14 @@ h4 {
 }
 
 .footer nav {
-  padding: 0 0 0 0;
+  padding: 10px 0 10px 0;
   color: white;
 }
 
 .footer i {
   padding: 0 5px 0 5px;
+  color: silver;
+  opacity: 0.35;
 }
 
 .slack {
