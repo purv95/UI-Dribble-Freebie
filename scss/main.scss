@@ -613,7 +613,7 @@ h4 {
 
 .container_faq {
   display: flex;
-  width: 1000px;
+  width: 800px;
   height: 50px;
   background-color: rgb(247, 243, 243);
   justify-content: space-between;
@@ -627,7 +627,7 @@ h4 {
 .container_faq_open {
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  width: 800px;
   height: auto;
   text-align: left;
   background-color: rgb(247, 243, 243);
@@ -656,4 +656,64 @@ h4 {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+  p {
+    width: 700px;
+  }
+}
+
+.container_eight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 250px;
+  img {
+    margin: -10.25px;
+    margin-right: -240px;
+  }
+}
+
+.container_eight_left {
+  font-size: 30px;
+  h3 {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    font-size: 13px;
+    width: 550px;
+  }
+  margin-right: 150px;
+}
+
+.appstore {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  justify-content: space-around;
+  img {
+    margin: 0px 0px 0px -91px;
+  }
+}
+
+.footer {
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  nav {
+    padding: 0 0 0 0;
+    color: white;
+  }
+  i {
+    padding: 0 5px 0 5px;
+  }
+}
+
+.slack {
+  color: white;
 }
