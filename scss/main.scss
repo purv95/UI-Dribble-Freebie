@@ -711,11 +711,11 @@ h4 {
   }
   i {
     padding: 0 5px 0 5px;
-    color: silver;
-    opacity: 0.35;
+    color: rgba(212, 212, 212, 0.301);
+    cursor: pointer;
   }
 }
 
-.slack {
+i:hover {
   color: white;
 }
